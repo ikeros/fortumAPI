@@ -1,0 +1,35 @@
+{
+  "name": "fortumapi",
+  "version": "0.0.1",
+  "description": "Simple API to fetch consumption and prices from Fortum Valpas service",
+  "main": "fortum.api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikeros/fortumapi.git"
+  },
+  "keywords": [
+    "fortum",
+    "caruna",
+    "api",
+    "valpas",
+    "electricity"
+  ],
+  "author": "ikeros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikeros/fortumapi/issues"
+  },
+  "homepage": "https://github.com/ikeros/fortumapi#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "debug": "^4.1.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "nconf": "^0.10.0",
+    "request": "^2.88.0",
+    "url": "^0.11.0"
+  }
+}
